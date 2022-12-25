@@ -1,0 +1,61 @@
+
+h1{
+   width: auto;
+   height: auto;
+   padding:6px;
+   color:#3F3B6C;
+   text-align: center;
+   font-size: 40px;
+}
+#anasayfa {
+      display:inline;
+      margin-right: 40px;
+      color:darkmagenta ;
+  }
+
+ul #hocalar{display:block;
+    border: plum;
+    margin-right: 40px;
+    color:darkmagenta ;}
+
+h2{
+   color: #3F3B6C;
+   text-align: center;
+   background-color: #DEBACE;
+   border-radius: 24px;
+}
+
+.paragraf {
+   text-align: center;
+
+}
+
+a{color: #DEBACE;
+font-size: 20px;
+}
+h4{color: #3F3B6C;
+    width: 300px;
+    padding: 11px;
+    background-color: #DEBACE;
+    border-radius: 24px;}
+
+.divh{
+   height: 500px;
+   background-color:#ad8099  ;
+   border-radius: 47px;
+   width: 260px;
+   position: relative;
+   margin-left: 50px;
+   margin-right: 50px;
+   display: inline-table;
+}
+.fotolar{
+   display: inline;
+
+   margin-top:30px;
+   width: 200px;
+   height: 200px;
+   border-radius: 19px
+}
+
+
