@@ -1,0 +1,27 @@
+.header{
+    text-align: center;
+}
+
+section{margin-left:auto ;
+margin-right: auto;}
+
+body{margin: 40px;}
+
+.kisim1{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.bolge2{
+    text-align: center;
+   width: 383px;
+   height: 90px;
+   margin-right: 2px;
+   margin-top: 2px;
+    float: left;
+   background-color: aquamarine;
+   padding: 2px 50px;
+   font-size: large;
+}

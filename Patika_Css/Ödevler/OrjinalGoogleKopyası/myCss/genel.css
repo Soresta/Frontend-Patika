@@ -1,0 +1,301 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    flex-direction: column;
+    font-family: arial , sans-serif;;
+}
+
+nav{
+    height: 48px;
+    padding: 6px;
+}
+
+nav>div{
+    height: 48px;
+}
+
+#navA {
+    color:rgba(0,0,0,.87);
+    height: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font: 13px/27px arial , sans-serif;
+    padding-left: 15px;
+}
+
+#navA:hover{
+    text-decoration: underline;
+}
+
+#divButton{
+    margin: 0 auto;
+    position: relative;
+    height: 24px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#divsimge{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#divNav{
+    display: flex;
+    height: 48px;
+    padding: 0px 4px 0px 32px;
+    float: right;
+    align-items: center;
+}
+
+#simge{
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+}
+
+#simge1{
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    padding: 9px 23px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    margin: 0px 8px;   
+}
+
+#simge1:hover{
+    box-shadow: 0px 1px 3px 0px rgba(120, 120, 120, 0.675);
+    cursor: pointer;
+    background-color: #206cce;
+}
+
+#buttonS{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+#buttonS:hover{
+    background-color: rgba(238, 238, 238, 0.807);
+    border-radius: 100%;
+}
+
+#imgGoogle{
+    margin-top: 90px;
+    height: 92px;
+    width: 272px;
+    position: relative;
+}
+
+#section1{
+    text-align: center;
+}
+
+#section2{
+    height: 160px;
+    padding: 20px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#section2Div{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#s2dD{
+    margin: auto;
+    height: auto;
+    width: 584px;
+    padding-top: 6px;
+}
+
+#searchBarDiv{
+    height: 44px;
+    width: 584px;
+    display: flex;
+    background:#fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#searchBar{
+    padding: 5px 8px 0px 14px;
+    display: flex;
+    height: 39px;
+    float: left;
+    width: inherit;
+}
+
+#searchBarDiv:hover{
+    box-shadow: 0px 0px 4px 2px #dfe1e5;
+    border: 1px solid white
+}
+
+#span{
+    height: 20px;
+    width: 20px;
+    color: #9aa0a6;
+    margin-top: 3px;
+    display: inline-block;
+    fill:currentColor;
+    line-height: 24px;
+    position: relative;
+    margin: auto;
+}
+
+#divspan{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+#svg1{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+input{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 34px;
+    outline: none;
+    border: none;
+    flex: 100%;
+}
+
+#imgDiv{
+    padding: 0px 8px;
+    width: 24px;
+    line-height: 44px;
+    padding-bottom: 5px;
+}
+
+#imgSerach{
+    height: 24px;
+    width: 24px;
+}
+
+#imgDiv:hover{
+    cursor: pointer;
+}
+
+#buttonsDiv{
+    height: 70px;
+    width: 584px;
+    padding-top: 18px;
+    display: inline-block;
+    text-align: center;
+}
+
+button{
+    background-color: #f8f9fa;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    position: relative;
+    color: #5f6368;
+    font-size: 14px ;
+    height: 36px;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+button:hover{
+    box-shadow: 0px 1px 1px 0px #dfe1e5;
+    border: 1px solid #dfe1e5;
+    cursor: pointer;
+}
+
+#section3{
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-family: arial , sans-serif;;
+}
+
+#footerDiv1{
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+#footerDiv2{
+    font-size: 15px;
+    color: #70757a;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+footer>div>div>a{
+    font-size: 14px;
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+
+footer>div>div>a:hover{
+    text-decoration: underline;
+}
+#fdiv1{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+}
+
+#fdiv2{
+    display: flex;
+}
+
+#fdiv3{
+    min-width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#fimg{
+    height: 14px;
+    margin-right: 6px;
+}
+#divKlavye{   
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    margin-bottom: 5px;
+}
+#klavye{
+    background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
